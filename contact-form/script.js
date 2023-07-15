@@ -8,7 +8,7 @@ form.onsubmit = (e) => {
 
   let xhr = new XMLHttpRequest(); // creating a new xml object
 
-  xhr.open("POST", "message.php", true); // sending post request to message.php file
+  xhr.open("POST", "index.php", true); // sending post request to message.php file
   xhr.onload = () => {
     if (xhr.readyState == 4 && xhr.status == 200) {
       // this means if there is no error
