@@ -14,28 +14,28 @@
   <body>
     <div class="wrapper">
       <header>Send us a message</header>
-      <form action="">
+      <form action="#">
         <div class="fields">
           <div class="field">
-            <input type="text" name="" id="" placeholder="Enter your name"/>
+            <input type="text" name="name"  placeholder="Enter your name"/>
             <i class="fas fa-user"></i>
           </div>
           <div class="field">
-            <input type="email" name="" id="" placeholder="Enter your email" />
+            <input type="email" name="email" placeholder="Enter your email" />
             <i class="fas fa-envelope"></i>
           </div>
           <div class="field">
-            <input type="tel" name="" id="" placeholder="Enter your phone number"/>
+            <input type="tel" name="phone" placeholder="Enter your phone number"/>
             <i class="fas fa-phone"></i>
           </div>
           <div class="field">
-            <input type="text" name="" id="" placeholder="Enter your website">
+            <input type="text" name="website" placeholder="Enter your website">
             <i class="fas fa-globe-africa"></i>
           </div> 
         </div>
 
         <div class="message">
-            <textarea placeholder="Write your message"></textarea>
+            <textarea placeholder="Write your message" name="message"></textarea>
         </div>
         <div class="button">
             <input type="submit" value="Send message">
@@ -43,5 +43,8 @@
         <span id="message">Sending you message...</span>
       </form>
     </div>
+
+    <script src="script.js"></script>
+
   </body>
 </html>
