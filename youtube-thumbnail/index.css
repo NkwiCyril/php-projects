@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #347583;
+    background-color: #0C041C;
     display: flex;
     justify-content: center;
 }
@@ -23,7 +23,7 @@ body {
 }
 
 h1 {
-    color: #347583;
+    color: #0C041C;
     font-size: 25px;
     padding: 30px ;
 }
@@ -53,7 +53,7 @@ input::placeholder {
     max-width: 100%;
     margin: 15px;
     padding: 40px;
-    border: 1px dashed #347583;
+    border: 1px dashed #0C041C;
     border-radius: 5px;
 }
 
@@ -63,13 +63,13 @@ input::placeholder {
 
 .fa-cloud-download {
     font-size: 5rem;
-    color: #347583;
+    color: #0C041C;
 }
 
 button {
     padding: 7px;
     width: 80%;
-    background-color: #347583;
+    background-color: #0C041C;
     border: none;
     border-radius: 5px;
     color: white;
@@ -78,5 +78,5 @@ button {
 }
 
 button:hover {
-    background-color: #076175;
+    background-color: #3a3a3b;
 }
